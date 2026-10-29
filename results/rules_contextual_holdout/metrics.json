@@ -1,0 +1,1125 @@
+{
+  "n_docs": 120,
+  "n_sem_previsao": 0,
+  "n_erro_execucao": 0,
+  "doc_exato": 0.0,
+  "doc_exato_ic95": [
+    0.0,
+    0.0
+  ],
+  "resultado_acuracia": 0.8916666666666667,
+  "resultado_acuracia_ic95": [
+    0.8333333333333334,
+    0.9416666666666667
+  ],
+  "falso_apto": {
+    "n": 0,
+    "de": 22,
+    "taxa": 0.0
+  },
+  "falso_inapto": {
+    "n": 0,
+    "de": 98,
+    "taxa": 0.0
+  },
+  "matriz_resultado": {
+    "apto": {
+      "apto": 77,
+      "inapto": 0,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "inapto": {
+      "apto": 0,
+      "inapto": 22,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "apto_com_restricoes": {
+      "apto": 13,
+      "inapto": 0,
+      "apto_com_restricoes": 8,
+      "outro": 0
+    }
+  },
+  "campos": {
+    "resultado": {
+      "tp": 107,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 13,
+      "acuracia": 0.8916666666666667,
+      "acuracia_ic95": [
+        0.8333333333333334,
+        0.9416666666666667
+      ],
+      "precisao": 0.8916666666666667,
+      "revocacao": 0.8916666666666667,
+      "f1": 0.8916666666666667,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_emissao": {
+      "tp": 80,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 40,
+      "acuracia": 0.6666666666666666,
+      "acuracia_ic95": [
+        0.5833333333333334,
+        0.75
+      ],
+      "precisao": 0.6666666666666666,
+      "revocacao": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_validade": {
+      "tp": 39,
+      "tn": 18,
+      "alucinacao": 0,
+      "omissao": 50,
+      "errado": 13,
+      "acuracia": 0.475,
+      "acuracia_ic95": [
+        0.38333333333333336,
+        0.5583333333333333
+      ],
+      "precisao": 0.75,
+      "revocacao": 0.38235294117647056,
+      "f1": 0.5064935064935064,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.49019607843137253
+    },
+    "avaliador": {
+      "tp": 0,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 120,
+      "errado": 0,
+      "acuracia": 0.0,
+      "acuracia_ic95": [
+        0.0,
+        0.0
+      ],
+      "precisao": null,
+      "revocacao": 0.0,
+      "f1": null,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 1.0
+    },
+    "registro_profissional": {
+      "tp": 109,
+      "tn": 11,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 0,
+      "acuracia": 1.0,
+      "acuracia_ic95": [
+        1.0,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.0
+    },
+    "restricoes": {
+      "tp": 0,
+      "tn": 99,
+      "alucinacao": 0,
+      "omissao": 21,
+      "errado": 0,
+      "acuracia": 0.825,
+      "acuracia_ic95": [
+        0.7583333333333333,
+        0.8916666666666667
+      ],
+      "precisao": null,
+      "revocacao": 0.0,
+      "f1": null,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 1.0
+    }
+  },
+  "grupos": {
+    "tag:layout_novo": {
+      "n": 120,
+      "doc_exato": 0.0,
+      "resultado": 0.8916666666666667
+    },
+    "tag:sem_registro": {
+      "n": 11,
+      "doc_exato": 0.0,
+      "resultado": 0.9090909090909091
+    },
+    "tag:sem_validade": {
+      "n": 18,
+      "doc_exato": 0.0,
+      "resultado": 1.0
+    },
+    "tag:validade_relativa": {
+      "n": 49,
+      "doc_exato": 0.0,
+      "resultado": 0.8979591836734694
+    },
+    "template:carta": {
+      "n": 40,
+      "doc_exato": 0.0,
+      "resultado": 0.85
+    },
+    "template:ficha": {
+      "n": 40,
+      "doc_exato": 0.0,
+      "resultado": 1.0
+    },
+    "template:formulario": {
+      "n": 40,
+      "doc_exato": 0.0,
+      "resultado": 0.825
+    }
+  },
+  "uso": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "latencia_media_s": 0.0001516666666666667,
+    "latencia_p95_s": 0.0002,
+    "docs_em_cache": 0,
+    "custo": null,
+    "moeda": null
+  },
+  "gate": {
+    "curva": [
+      {
+        "limiar": 0.0,
+        "cobertura": 1.0,
+        "acerto_aceitos": 0.8916666666666667,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.05,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.1,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.15,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.2,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.25,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.3,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.35,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.4,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.45,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.5,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.55,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.6,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.65,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.7,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.75,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.8,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.85,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.9,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.95,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 1.0,
+        "cobertura": 0.9333333333333333,
+        "acerto_aceitos": 0.8839285714285714,
+        "erros_aceitos": 13,
+        "erros_barrados": 0.0
+      }
+    ],
+    "em_090": {
+      "limiar": 0.9,
+      "cobertura": 0.9333333333333333,
+      "acerto_aceitos": 0.8839285714285714,
+      "erros_aceitos": 13,
+      "erros_barrados": 0.0
+    },
+    "em_095": {
+      "limiar": 0.95,
+      "cobertura": 0.9333333333333333,
+      "acerto_aceitos": 0.8839285714285714,
+      "erros_aceitos": 13,
+      "erros_barrados": 0.0
+    }
+  },
+  "erros_exemplos": [
+    {
+      "doc_id": "laudo_h0000",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-10-23",
+      "previsto": "2023-10-20",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0000",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Natália Sampaio Almeida",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0001",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Fábio Vasconcelos Barros",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0002",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2027-12-20",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0002",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Isabela Barros Vasconcelos",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0003",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0003",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2026-05-18",
+      "previsto": "2026-05-13",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0003",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Daniela Vasconcelos Macedo",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0003",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "restrição ao trabalho em turno noturno",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0004",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0004",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Carlos Nogueira Pinheiro",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0004",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0005",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2025-06-12",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0005",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Helena Guedes Barros",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0006",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2026-06-10",
+      "previsto": "2026-06-09",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0006",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2026-12-10",
+      "previsto": "2026-12-09",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0006",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Eduardo Rocha Pinheiro",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0007",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2025-10-03",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0007",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Beatriz Guedes Holanda",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0008",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2024-11-05",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0008",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Thiago Rocha Macedo",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0008",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0009",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-04-19",
+      "previsto": "2024-04-18",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0009",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2025-04-19",
+      "previsto": "2025-04-18",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0009",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Natália Sampaio Rocha",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0010",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Larissa Rocha Farias",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0011",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Igor Teixeira Farias",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0012",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-04-17",
+      "previsto": "2023-04-11",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0012",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "André Uchoa Dantas",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0013",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Leonardo Barros Cavalcante",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0014",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2025-02-17",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "sem_registro"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0014",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "João Dantas Xavier",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "sem_registro"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0015",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2026-03-21",
+      "previsto": "2026-03-17",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0015",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2028-03-21",
+      "previsto": "2028-03-17",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0015",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Gustavo Rocha Oliveira",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0016",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2027-07-13",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0016",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Leonardo Almeida Holanda",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0017",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2028-02-17",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0017",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Larissa Vasconcelos Nogueira",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0018",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "sem_registro",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0018",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-09-04",
+      "previsto": "2024-09-01",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "sem_registro",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0018",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2025-03-04",
+      "previsto": "2025-03-01",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "sem_registro",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0018",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Leonardo Macedo Lima",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "sem_registro",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0018",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "sem_registro",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0019",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Igor Holanda Lima",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0020",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2027-03-03",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "sem_registro"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0020",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Juliana Almeida Farias",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "sem_registro"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0021",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-10-04",
+      "previsto": "2024-09-28",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0021",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2025-10-04",
+      "previsto": "2025-09-28",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0021",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Beatriz Teixeira Farias",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0022",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2026-04-25",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0022",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Larissa Uchoa Esteves",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0023",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2025-05-07",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0023",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Marcelo Vasconcelos Xavier",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0024",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-02-21",
+      "previsto": "2025-02-18",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0024",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Mariana Queiroz Uchoa",
+      "previsto": null,
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0025",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "André Guedes Macedo",
+      "previsto": null,
+      "template": "carta",
+      "tags": [
+        "carta",
+        "layout_novo",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0026",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2025-04-30",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0026",
+      "campo": "avaliador",
+      "desfecho": "omissao",
+      "gabarito": "Isabela Holanda Dantas",
+      "previsto": null,
+      "template": "ficha",
+      "tags": [
+        "ficha",
+        "layout_novo"
+      ]
+    },
+    {
+      "doc_id": "laudo_h0027",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-10-01",
+      "previsto": "2024-09-25",
+      "template": "formulario",
+      "tags": [
+        "formulario",
+        "layout_novo"
+      ]
+    }
+  ]
+}

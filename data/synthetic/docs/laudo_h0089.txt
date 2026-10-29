@@ -1,0 +1,9 @@
+| Campo | Valor |
+|---|---|
+| Identificação | Leonardo Vasconcelos Macedo |
+| Data do laudo | 23/04/2023 |
+| Data da avaliação | 20/04/2023 |
+| Conclusão | Candidato(a) considerado(a) APTO(A) COM RESTRIÇÕES |
+| Restrições | necessidade de reavaliação em 6 meses |
+| Vigência | 12 meses a contar da data do laudo |
+| Profissional | Psic. Nelson Dantas Barros (CRP 11/24008) |

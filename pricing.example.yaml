@@ -1,0 +1,6 @@
+# Copie para pricing.yaml e preencha com os preços do SEU deployment
+# (consulte a página de preços do Azure OpenAI). Valores por 1.000 tokens.
+# Com null, o relatório diz que o custo não foi calculado em vez de chutar.
+input_per_1k: null
+output_per_1k: null
+currency: USD

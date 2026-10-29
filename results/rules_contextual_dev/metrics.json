@@ -1,0 +1,445 @@
+{
+  "n_docs": 80,
+  "n_sem_previsao": 0,
+  "n_erro_execucao": 0,
+  "doc_exato": 0.9375,
+  "doc_exato_ic95": [
+    0.875,
+    0.9875
+  ],
+  "resultado_acuracia": 1.0,
+  "resultado_acuracia_ic95": [
+    1.0,
+    1.0
+  ],
+  "falso_apto": {
+    "n": 0,
+    "de": 25,
+    "taxa": 0.0
+  },
+  "falso_inapto": {
+    "n": 0,
+    "de": 55,
+    "taxa": 0.0
+  },
+  "matriz_resultado": {
+    "apto": {
+      "apto": 39,
+      "inapto": 0,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "inapto": {
+      "apto": 0,
+      "inapto": 25,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "apto_com_restricoes": {
+      "apto": 0,
+      "inapto": 0,
+      "apto_com_restricoes": 16,
+      "outro": 0
+    }
+  },
+  "campos": {
+    "resultado": {
+      "tp": 80,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 0,
+      "acuracia": 1.0,
+      "acuracia_ic95": [
+        1.0,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_emissao": {
+      "tp": 79,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 1,
+      "errado": 0,
+      "acuracia": 0.9875,
+      "acuracia_ic95": [
+        0.9625,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 0.9875,
+      "f1": 0.9937106918238994,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0125
+    },
+    "data_validade": {
+      "tp": 65,
+      "tn": 15,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 0,
+      "acuracia": 1.0,
+      "acuracia_ic95": [
+        1.0,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.0
+    },
+    "avaliador": {
+      "tp": 79,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 1,
+      "acuracia": 0.9875,
+      "acuracia_ic95": [
+        0.9625,
+        1.0
+      ],
+      "precisao": 0.9875,
+      "revocacao": 0.9875,
+      "f1": 0.9875,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "registro_profissional": {
+      "tp": 77,
+      "tn": 2,
+      "alucinacao": 0,
+      "omissao": 1,
+      "errado": 0,
+      "acuracia": 0.9875,
+      "acuracia_ic95": [
+        0.9625,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 0.9871794871794872,
+      "f1": 0.9935483870967742,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.01282051282051282
+    },
+    "restricoes": {
+      "tp": 16,
+      "tn": 62,
+      "alucinacao": 2,
+      "omissao": 0,
+      "errado": 0,
+      "acuracia": 0.975,
+      "acuracia_ic95": [
+        0.9375,
+        1.0
+      ],
+      "precisao": 0.8888888888888888,
+      "revocacao": 1.0,
+      "f1": 0.9411764705882353,
+      "taxa_alucinacao": 0.03125,
+      "taxa_omissao": 0.0
+    }
+  },
+  "grupos": {
+    "tag:boilerplate": {
+      "n": 7,
+      "doc_exato": 0.8571428571428571,
+      "resultado": 1.0
+    },
+    "tag:historico": {
+      "n": 2,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:negacao": {
+      "n": 5,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:sem_registro": {
+      "n": 2,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:sem_validade": {
+      "n": 15,
+      "doc_exato": 0.9333333333333333,
+      "resultado": 1.0
+    },
+    "tag:validade_relativa": {
+      "n": 16,
+      "doc_exato": 0.9375,
+      "resultado": 1.0
+    },
+    "template:checkbox": {
+      "n": 13,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:formal": {
+      "n": 14,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:historico": {
+      "n": 13,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:narrativo": {
+      "n": 13,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:ocr": {
+      "n": 14,
+      "doc_exato": 0.6428571428571429,
+      "resultado": 1.0
+    },
+    "template:tabela": {
+      "n": 13,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    }
+  },
+  "uso": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "latencia_media_s": 0.00017000000000000004,
+    "latencia_p95_s": 0.0002,
+    "docs_em_cache": 0,
+    "custo": null,
+    "moeda": null
+  },
+  "gate": {
+    "curva": [
+      {
+        "limiar": 0.0,
+        "cobertura": 1.0,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.05,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.1,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.15,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.2,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.25,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.3,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.35,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.4,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.45,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.5,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.55,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.6,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.65,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.7,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.75,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.8,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.85,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.9,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.95,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 1.0,
+        "cobertura": 0.9875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      }
+    ],
+    "em_090": {
+      "limiar": 0.9,
+      "cobertura": 0.9875,
+      "acerto_aceitos": 1.0,
+      "erros_aceitos": 0,
+      "erros_barrados": null
+    },
+    "em_095": {
+      "limiar": 0.95,
+      "cobertura": 0.9875,
+      "acerto_aceitos": 1.0,
+      "erros_aceitos": 0,
+      "erros_barrados": null
+    }
+  },
+  "erros_exemplos": [
+    {
+      "doc_id": "laudo_0035",
+      "campo": "data_emissao",
+      "desfecho": "omissao",
+      "gabarito": "2023-10-10",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0095",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/36371",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0155",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "- VÁLIDO ATÉ .... 16-06-2025",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0185",
+      "campo": "avaliador",
+      "desfecho": "errado",
+      "gabarito": "Isabela Vasconcelos Holanda",
+      "previsto": "ISABELA VASC0NCEL0S HOLANDA",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0215",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "- VALIDADE ...... 6 MESES A PARTIR DA EMISSAO",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    }
+  ]
+}

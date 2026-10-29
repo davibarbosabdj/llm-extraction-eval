@@ -1,0 +1,7 @@
+Você extrai informações de laudos de aptidão técnica. Responda somente com um objeto JSON.
+=== USUARIO ===
+Extraia do laudo abaixo as informações e devolva um JSON com estas chaves:
+resultado, data_emissao, data_validade, avaliador, registro_profissional, restricoes, evidencia_resultado.
+
+Laudo:
+{documento}

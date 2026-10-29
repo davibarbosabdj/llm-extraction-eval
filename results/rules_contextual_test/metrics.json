@@ -1,0 +1,604 @@
+{
+  "n_docs": 320,
+  "n_sem_previsao": 0,
+  "n_erro_execucao": 0,
+  "doc_exato": 0.953125,
+  "doc_exato_ic95": [
+    0.928125,
+    0.975
+  ],
+  "resultado_acuracia": 1.0,
+  "resultado_acuracia_ic95": [
+    1.0,
+    1.0
+  ],
+  "falso_apto": {
+    "n": 0,
+    "de": 71,
+    "taxa": 0.0
+  },
+  "falso_inapto": {
+    "n": 0,
+    "de": 249,
+    "taxa": 0.0
+  },
+  "matriz_resultado": {
+    "apto": {
+      "apto": 193,
+      "inapto": 0,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "inapto": {
+      "apto": 0,
+      "inapto": 71,
+      "apto_com_restricoes": 0,
+      "outro": 0
+    },
+    "apto_com_restricoes": {
+      "apto": 0,
+      "inapto": 0,
+      "apto_com_restricoes": 56,
+      "outro": 0
+    }
+  },
+  "campos": {
+    "resultado": {
+      "tp": 320,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 0,
+      "acuracia": 1.0,
+      "acuracia_ic95": [
+        1.0,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_emissao": {
+      "tp": 318,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 1,
+      "errado": 1,
+      "acuracia": 0.99375,
+      "acuracia_ic95": [
+        0.984375,
+        1.0
+      ],
+      "precisao": 0.9968652037617555,
+      "revocacao": 0.99375,
+      "f1": 0.9953051643192489,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.003125
+    },
+    "data_validade": {
+      "tp": 260,
+      "tn": 57,
+      "alucinacao": 0,
+      "omissao": 2,
+      "errado": 1,
+      "acuracia": 0.990625,
+      "acuracia_ic95": [
+        0.978125,
+        1.0
+      ],
+      "precisao": 0.9961685823754789,
+      "revocacao": 0.9885931558935361,
+      "f1": 0.9923664122137406,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.0076045627376425855
+    },
+    "avaliador": {
+      "tp": 317,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 3,
+      "acuracia": 0.990625,
+      "acuracia_ic95": [
+        0.978125,
+        1.0
+      ],
+      "precisao": 0.990625,
+      "revocacao": 0.990625,
+      "f1": 0.990625,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "registro_profissional": {
+      "tp": 298,
+      "tn": 17,
+      "alucinacao": 0,
+      "omissao": 5,
+      "errado": 0,
+      "acuracia": 0.984375,
+      "acuracia_ic95": [
+        0.971875,
+        0.996875
+      ],
+      "precisao": 1.0,
+      "revocacao": 0.9834983498349835,
+      "f1": 0.9916805324459235,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.0165016501650165
+    },
+    "restricoes": {
+      "tp": 55,
+      "tn": 259,
+      "alucinacao": 5,
+      "omissao": 0,
+      "errado": 1,
+      "acuracia": 0.98125,
+      "acuracia_ic95": [
+        0.965625,
+        0.99375
+      ],
+      "precisao": 0.9016393442622951,
+      "revocacao": 0.9821428571428571,
+      "f1": 0.9401709401709402,
+      "taxa_alucinacao": 0.01893939393939394,
+      "taxa_omissao": 0.0
+    }
+  },
+  "grupos": {
+    "tag:boilerplate": {
+      "n": 43,
+      "doc_exato": 0.9302325581395349,
+      "resultado": 1.0
+    },
+    "tag:historico": {
+      "n": 22,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:negacao": {
+      "n": 15,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:sem_registro": {
+      "n": 17,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:sem_validade": {
+      "n": 57,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "tag:validade_relativa": {
+      "n": 78,
+      "doc_exato": 0.9615384615384616,
+      "resultado": 1.0
+    },
+    "template:checkbox": {
+      "n": 54,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:formal": {
+      "n": 53,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:historico": {
+      "n": 53,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:narrativo": {
+      "n": 54,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    },
+    "template:ocr": {
+      "n": 52,
+      "doc_exato": 0.7115384615384616,
+      "resultado": 1.0
+    },
+    "template:tabela": {
+      "n": 54,
+      "doc_exato": 1.0,
+      "resultado": 1.0
+    }
+  },
+  "uso": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "latencia_media_s": 0.00017687500000000003,
+    "latencia_p95_s": 0.0003,
+    "docs_em_cache": 0,
+    "custo": null,
+    "moeda": null
+  },
+  "gate": {
+    "curva": [
+      {
+        "limiar": 0.0,
+        "cobertura": 1.0,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.05,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.1,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.15,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.2,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.25,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.3,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.35,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.4,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.45,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.5,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.55,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.6,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.65,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.7,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.75,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.8,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.85,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.9,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 0.95,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      },
+      {
+        "limiar": 1.0,
+        "cobertura": 0.996875,
+        "acerto_aceitos": 1.0,
+        "erros_aceitos": 0,
+        "erros_barrados": null
+      }
+    ],
+    "em_090": {
+      "limiar": 0.9,
+      "cobertura": 0.996875,
+      "acerto_aceitos": 1.0,
+      "erros_aceitos": 0,
+      "erros_barrados": null
+    },
+    "em_095": {
+      "limiar": 0.95,
+      "cobertura": 0.996875,
+      "acerto_aceitos": 1.0,
+      "erros_aceitos": 0,
+      "erros_barrados": null
+    }
+  },
+  "erros_exemplos": [
+    {
+      "doc_id": "laudo_0011",
+      "campo": "restricoes",
+      "desfecho": "errado",
+      "gabarito": "restrição ao porte de arma de fogo",
+      "previsto": "RESTRIÇAO AO PORTE DE ARMA DE FOGO VALIDADE: 24 DE MARÇO DE 2024",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0023",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "- VÁLIDO ATE .... 15/06/2024",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0053",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2028-01-07",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0053",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/28428",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0119",
+      "campo": "avaliador",
+      "desfecho": "errado",
+      "gabarito": "Otávio Nogueira Oliveira",
+      "previsto": "OTAVIO NOGUEIRA 0LIVEIRA",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0119",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "NENHUMA VALIDADE: 21/11/25",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0203",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-01-15",
+      "previsto": "2023-01-05",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0203",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2024-01-15",
+      "previsto": "2024-01-05",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0209",
+      "campo": "avaliador",
+      "desfecho": "errado",
+      "gabarito": "Patrícia Pinheiro Lima",
+      "previsto": "PATRÍCIA PINHEIR0 LIMA",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0221",
+      "campo": "data_emissao",
+      "desfecho": "omissao",
+      "gabarito": "2026-07-06",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0239",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/18509",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0269",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/12992",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0293",
+      "campo": "data_validade",
+      "desfecho": "omissao",
+      "gabarito": "2026-06-09",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0317",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "- VALIDO ATÉ ....  02/09/2026",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0323",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/16480",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0329",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "NENHUMA VALIDADE: 10/10/2024",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0341",
+      "campo": "avaliador",
+      "desfecho": "errado",
+      "gabarito": "Nelson Dantas Queiroz",
+      "previsto": "NELS0N DANTAS QUEIROZ",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0359",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/32558",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0359",
+      "campo": "restricoes",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "- VALIDADE  ...... 6 meses a partir da emissao",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "validade_relativa"
+      ]
+    }
+  ]
+}

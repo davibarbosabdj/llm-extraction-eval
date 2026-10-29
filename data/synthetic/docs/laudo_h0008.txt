@@ -1,0 +1,9 @@
+| Campo | Valor |
+|---|---|
+| Identificação | Ana Guedes Esteves |
+| Data do laudo | 5 de novembro de 2023 |
+| Data da avaliação | 31 de outubro de 2023 |
+| Conclusão | Candidato(a) considerado(a) APTO(A) COM RESTRIÇÕES |
+| Restrições | necessidade de reavaliação em 6 meses |
+| Vigência | até 5 de novembro de 2024 |
+| Profissional | Psic. Thiago Rocha Macedo (CRP 11/37701) |

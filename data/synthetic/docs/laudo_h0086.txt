@@ -1,0 +1,9 @@
+| Campo | Valor |
+|---|---|
+| Identificação | Ana Almeida Barros |
+| Data do laudo | 05/10/2024 |
+| Data da avaliação | 02/10/2024 |
+| Conclusão | Candidato(a) considerado(a) INAPTO(A) |
+| Restrições | — |
+| Vigência | até 05/10/2025 |
+| Profissional | Psic. Carlos Barros Macedo (CRP 11/34170) |

@@ -1,0 +1,9 @@
+| Campo | Valor |
+|---|---|
+| Identificação | André Almeida Vasconcelos |
+| Data do laudo | 02-02-2023 |
+| Data da avaliação | 30-01-2023 |
+| Conclusão | Candidato(a) considerado(a) APTO(A) |
+| Restrições | — |
+| Vigência | 12 meses a contar da data do laudo |
+| Profissional | Psic. Fernanda Vasconcelos Teixeira (CRP 11/22347) |

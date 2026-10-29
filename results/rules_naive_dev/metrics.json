@@ -1,0 +1,1087 @@
+{
+  "n_docs": 80,
+  "n_sem_previsao": 0,
+  "n_erro_execucao": 0,
+  "doc_exato": 0.0625,
+  "doc_exato_ic95": [
+    0.0125,
+    0.1125
+  ],
+  "resultado_acuracia": 0.6125,
+  "resultado_acuracia_ic95": [
+    0.5,
+    0.725
+  ],
+  "falso_apto": {
+    "n": 4,
+    "de": 25,
+    "taxa": 0.16
+  },
+  "falso_inapto": {
+    "n": 17,
+    "de": 55,
+    "taxa": 0.3090909090909091
+  },
+  "matriz_resultado": {
+    "apto": {
+      "apto": 19,
+      "inapto": 15,
+      "apto_com_restricoes": 5,
+      "outro": 0
+    },
+    "inapto": {
+      "apto": 1,
+      "inapto": 21,
+      "apto_com_restricoes": 3,
+      "outro": 0
+    },
+    "apto_com_restricoes": {
+      "apto": 5,
+      "inapto": 2,
+      "apto_com_restricoes": 9,
+      "outro": 0
+    }
+  },
+  "campos": {
+    "resultado": {
+      "tp": 49,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 31,
+      "acuracia": 0.6125,
+      "acuracia_ic95": [
+        0.5,
+        0.725
+      ],
+      "precisao": 0.6125,
+      "revocacao": 0.6125,
+      "f1": 0.6125,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_emissao": {
+      "tp": 39,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 41,
+      "acuracia": 0.4875,
+      "acuracia_ic95": [
+        0.375,
+        0.6
+      ],
+      "precisao": 0.4875,
+      "revocacao": 0.4875,
+      "f1": 0.4875,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "data_validade": {
+      "tp": 49,
+      "tn": 0,
+      "alucinacao": 15,
+      "omissao": 0,
+      "errado": 16,
+      "acuracia": 0.6125,
+      "acuracia_ic95": [
+        0.5,
+        0.7125
+      ],
+      "precisao": 0.6125,
+      "revocacao": 0.7538461538461538,
+      "f1": 0.6758620689655173,
+      "taxa_alucinacao": 1.0,
+      "taxa_omissao": 0.0
+    },
+    "avaliador": {
+      "tp": 79,
+      "tn": 0,
+      "alucinacao": 0,
+      "omissao": 0,
+      "errado": 1,
+      "acuracia": 0.9875,
+      "acuracia_ic95": [
+        0.9625,
+        1.0
+      ],
+      "precisao": 0.9875,
+      "revocacao": 0.9875,
+      "f1": 0.9875,
+      "taxa_alucinacao": null,
+      "taxa_omissao": 0.0
+    },
+    "registro_profissional": {
+      "tp": 77,
+      "tn": 2,
+      "alucinacao": 0,
+      "omissao": 1,
+      "errado": 0,
+      "acuracia": 0.9875,
+      "acuracia_ic95": [
+        0.9625,
+        1.0
+      ],
+      "precisao": 1.0,
+      "revocacao": 0.9871794871794872,
+      "f1": 0.9935483870967742,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 0.01282051282051282
+    },
+    "restricoes": {
+      "tp": 0,
+      "tn": 64,
+      "alucinacao": 0,
+      "omissao": 16,
+      "errado": 0,
+      "acuracia": 0.8,
+      "acuracia_ic95": [
+        0.7,
+        0.8875
+      ],
+      "precisao": null,
+      "revocacao": 0.0,
+      "f1": null,
+      "taxa_alucinacao": 0.0,
+      "taxa_omissao": 1.0
+    }
+  },
+  "grupos": {
+    "tag:boilerplate": {
+      "n": 7,
+      "doc_exato": 0.0,
+      "resultado": 0.2857142857142857
+    },
+    "tag:historico": {
+      "n": 2,
+      "doc_exato": 0.0,
+      "resultado": 0.0
+    },
+    "tag:negacao": {
+      "n": 5,
+      "doc_exato": 0.2,
+      "resultado": 0.2
+    },
+    "tag:sem_registro": {
+      "n": 2,
+      "doc_exato": 0.0,
+      "resultado": 0.0
+    },
+    "tag:sem_validade": {
+      "n": 15,
+      "doc_exato": 0.0,
+      "resultado": 0.7333333333333333
+    },
+    "tag:validade_relativa": {
+      "n": 16,
+      "doc_exato": 0.0,
+      "resultado": 0.5625
+    },
+    "template:checkbox": {
+      "n": 13,
+      "doc_exato": 0.3076923076923077,
+      "resultado": 0.46153846153846156
+    },
+    "template:formal": {
+      "n": 14,
+      "doc_exato": 0.0,
+      "resultado": 0.7857142857142857
+    },
+    "template:historico": {
+      "n": 13,
+      "doc_exato": 0.0,
+      "resultado": 0.0
+    },
+    "template:narrativo": {
+      "n": 13,
+      "doc_exato": 0.07692307692307693,
+      "resultado": 0.5384615384615384
+    },
+    "template:ocr": {
+      "n": 14,
+      "doc_exato": 0.0,
+      "resultado": 0.8571428571428571
+    },
+    "template:tabela": {
+      "n": 13,
+      "doc_exato": 0.0,
+      "resultado": 1.0
+    }
+  },
+  "uso": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "latencia_media_s": 0.00014000000000000001,
+    "latencia_p95_s": 0.0002,
+    "docs_em_cache": 0,
+    "custo": null,
+    "moeda": null
+  },
+  "gate": {
+    "curva": [
+      {
+        "limiar": 0.0,
+        "cobertura": 1.0,
+        "acerto_aceitos": 0.6125,
+        "erros_aceitos": 31,
+        "erros_barrados": 0.0
+      },
+      {
+        "limiar": 0.05,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.1,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.15,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.2,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.25,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.3,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.35,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.4,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.45,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.5,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.55,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.6,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.65,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.7,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.75,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.8,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.85,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.9,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 0.95,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      },
+      {
+        "limiar": 1.0,
+        "cobertura": 0.575,
+        "acerto_aceitos": 0.6739130434782609,
+        "erros_aceitos": 15,
+        "erros_barrados": 0.5161290322580645
+      }
+    ],
+    "em_090": {
+      "limiar": 0.9,
+      "cobertura": 0.575,
+      "acerto_aceitos": 0.6739130434782609,
+      "erros_aceitos": 15,
+      "erros_barrados": 0.5161290322580645
+    },
+    "em_095": {
+      "limiar": 0.95,
+      "cobertura": 0.575,
+      "acerto_aceitos": 0.6739130434782609,
+      "erros_aceitos": 15,
+      "erros_barrados": 0.5161290322580645
+    }
+  },
+  "erros_exemplos": [
+    {
+      "doc_id": "laudo_0000",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-02-22",
+      "previsto": "1970-04-08",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0000",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2023-02-22",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0005",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-06-10",
+      "previsto": "2084-11-17",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0010",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0010",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "restrição ao porte de arma de fogo",
+      "previsto": null,
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0015",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "checkbox",
+      "tags": [
+        "checkbox",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0015",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2025-08-06",
+      "previsto": "2023-08-01",
+      "template": "checkbox",
+      "tags": [
+        "checkbox",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0015",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "checkbox",
+      "tags": [
+        "checkbox",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0020",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2026-02-03",
+      "previsto": "1996-12-10",
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0025",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2025-04-12",
+      "template": "narrativo",
+      "tags": [
+        "narrativo",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0030",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "inapto",
+      "template": "formal",
+      "tags": [
+        "boilerplate",
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0030",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-11-27",
+      "previsto": "1987-12-27",
+      "template": "formal",
+      "tags": [
+        "boilerplate",
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0030",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "uso obrigatório de lentes corretivas",
+      "previsto": null,
+      "template": "formal",
+      "tags": [
+        "boilerplate",
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0035",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-10-10",
+      "previsto": "1973-10-13",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0040",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0040",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0050",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-05-11",
+      "previsto": "2072-03-18",
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0050",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0060",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-08-06",
+      "previsto": "1990-08-25",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0060",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2023-08-06",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0065",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-01-06",
+      "previsto": "1996-07-23",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0065",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2025-01-06",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0070",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "inapto",
+      "template": "historico",
+      "tags": [
+        "historico",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0070",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2025-11-07",
+      "template": "historico",
+      "tags": [
+        "historico",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0075",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto_com_restricoes",
+      "previsto": "apto",
+      "template": "checkbox",
+      "tags": [
+        "checkbox"
+      ]
+    },
+    {
+      "doc_id": "laudo_0075",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "uso obrigatório de lentes corretivas",
+      "previsto": null,
+      "template": "checkbox",
+      "tags": [
+        "checkbox"
+      ]
+    },
+    {
+      "doc_id": "laudo_0080",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-01-27",
+      "previsto": "1971-05-28",
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0085",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "necessidade de reavaliação em 6 meses",
+      "previsto": null,
+      "template": "narrativo",
+      "tags": [
+        "narrativo"
+      ]
+    },
+    {
+      "doc_id": "laudo_0090",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-01-27",
+      "previsto": "1980-08-12",
+      "template": "formal",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0095",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-10-22",
+      "previsto": "1973-07-20",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0095",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2024-10-22",
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0095",
+      "campo": "registro_profissional",
+      "desfecho": "omissao",
+      "gabarito": "CRP 11/36371",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0100",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "inapto",
+      "previsto": "apto_com_restricoes",
+      "template": "historico",
+      "tags": [
+        "historico",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0100",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2024-12-04",
+      "template": "historico",
+      "tags": [
+        "historico",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0105",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2026-06-06",
+      "previsto": "2024-06-05",
+      "template": "checkbox",
+      "tags": [
+        "checkbox",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0110",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-12-30",
+      "previsto": "1975-01-07",
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0115",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "inapto",
+      "template": "narrativo",
+      "tags": [
+        "historico",
+        "narrativo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0115",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2027-01-19",
+      "previsto": "2026-01-14",
+      "template": "narrativo",
+      "tags": [
+        "historico",
+        "narrativo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0120",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-04-20",
+      "previsto": "1989-04-13",
+      "template": "formal",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0125",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-10-01",
+      "previsto": "2001-10-18",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0125",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "uso obrigatório de lentes corretivas",
+      "previsto": null,
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0130",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "apto_com_restricoes",
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0135",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "apto_com_restricoes",
+      "template": "checkbox",
+      "tags": [
+        "checkbox"
+      ]
+    },
+    {
+      "doc_id": "laudo_0140",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-03-13",
+      "previsto": "1995-02-19",
+      "template": "tabela",
+      "tags": [
+        "sem_validade",
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0140",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2025-03-13",
+      "template": "tabela",
+      "tags": [
+        "sem_validade",
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0145",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "inapto",
+      "template": "narrativo",
+      "tags": [
+        "narrativo",
+        "negacao",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0145",
+      "campo": "data_validade",
+      "desfecho": "alucinacao",
+      "gabarito": null,
+      "previsto": "2025-08-20",
+      "template": "narrativo",
+      "tags": [
+        "narrativo",
+        "negacao",
+        "sem_validade"
+      ]
+    },
+    {
+      "doc_id": "laudo_0150",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2026-03-21",
+      "previsto": "1972-05-01",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0150",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2027-03-21",
+      "previsto": "2026-03-21",
+      "template": "formal",
+      "tags": [
+        "formal",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0150",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "uso obrigatório de lentes corretivas",
+      "previsto": null,
+      "template": "formal",
+      "tags": [
+        "formal",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0155",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "inapto",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0155",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2024-06-16",
+      "previsto": "2024-06-13",
+      "template": "ocr",
+      "tags": [
+        "boilerplate",
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0160",
+      "campo": "resultado",
+      "desfecho": "errado",
+      "gabarito": "apto",
+      "previsto": "apto_com_restricoes",
+      "template": "historico",
+      "tags": [
+        "historico"
+      ]
+    },
+    {
+      "doc_id": "laudo_0170",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-03-25",
+      "previsto": "1992-02-26",
+      "template": "tabela",
+      "tags": [
+        "tabela"
+      ]
+    },
+    {
+      "doc_id": "laudo_0175",
+      "campo": "data_validade",
+      "desfecho": "errado",
+      "gabarito": "2024-05-07",
+      "previsto": "2023-11-04",
+      "template": "narrativo",
+      "tags": [
+        "narrativo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0175",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "restrição a postos de contato direto com o público",
+      "previsto": null,
+      "template": "narrativo",
+      "tags": [
+        "narrativo",
+        "validade_relativa"
+      ]
+    },
+    {
+      "doc_id": "laudo_0180",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2025-10-22",
+      "previsto": "2093-01-01",
+      "template": "formal",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0180",
+      "campo": "restricoes",
+      "desfecho": "omissao",
+      "gabarito": "restrição ao trabalho em turno noturno",
+      "previsto": null,
+      "template": "formal",
+      "tags": [
+        "formal"
+      ]
+    },
+    {
+      "doc_id": "laudo_0185",
+      "campo": "data_emissao",
+      "desfecho": "errado",
+      "gabarito": "2023-12-27",
+      "previsto": "1966-12-22",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "doc_id": "laudo_0185",
+      "campo": "avaliador",
+      "desfecho": "errado",
+      "gabarito": "Isabela Vasconcelos Holanda",
+      "previsto": "ISABELA VASC0NCEL0S HOLANDA",
+      "template": "ocr",
+      "tags": [
+        "ocr"
+      ]
+    }
+  ]
+}
